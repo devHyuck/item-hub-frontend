@@ -1,9 +1,10 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
+import ManiNav from "./components/layout/ManiNav";
 
-const App: React.FC = () => {
+const App = () => {
 	return (
 		<div>
+			<ManiNav />
 			<Outlet />
 		</div>
 	);
